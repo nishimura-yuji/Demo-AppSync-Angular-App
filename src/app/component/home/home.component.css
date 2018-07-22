@@ -1,0 +1,7 @@
+.good {
+  color: rgb(107, 107, 207);
+}
+
+.good:hover {
+  cursor: pointer;
+}

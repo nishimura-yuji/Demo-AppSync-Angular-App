@@ -1,0 +1,26 @@
+.nofb-like {
+  display: inline-block;
+  padding: 5px;
+  border: solid 1px #cad4e7;
+  border-radius: 4px;
+  height: 20px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #3b59b8;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+}
+.nofb-like:hover {
+  background: 2px center #eceef5;
+  border: solid 1px #9dacce;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+}
