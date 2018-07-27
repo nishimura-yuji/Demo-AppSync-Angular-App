@@ -1,4 +1,3 @@
-import { Observable } from 'rxjs';
 import { AppsyncService } from './../../service/appsync.service';
 import { Component, OnInit } from '@angular/core';
 import { faThumbsUp } from '@fortawesome/free-regular-svg-icons';
@@ -11,9 +10,7 @@ export class HomeComponent implements OnInit {
   faThumbsUp = faThumbsUp;
   counter;
   constructor(private appsyncService: AppsyncService) {}
-  ngOnInit() {
-
-  }
+  ngOnInit() {}
 
   updateVote(): void {
     this.appsyncService.updateAppsyncVote().subscribe();

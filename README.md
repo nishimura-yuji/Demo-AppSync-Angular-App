@@ -1,5 +1,24 @@
 # AppsyncDemo
 
+## setting
+
+add `src/environments/environment.ts`
+
+```
+export const environment = {
+  production: false,
+  amplify: {
+    AppSync: {
+      aws_appsync_graphqlEndpoint:
+        'https://xxxxxxxxxxxxxxxx.appsync-api.ap-northeast-1.amazonaws.com/graphql',
+      aws_appsync_region: 'ap-northeast-1',
+      aws_appsync_authenticationType: 'API_KEY',
+      aws_appsync_apiKey: 'da2-xxxxxxxxxxxxxxxxxxxx'
+    }
+  }
+};
+```
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
 ## Development server
