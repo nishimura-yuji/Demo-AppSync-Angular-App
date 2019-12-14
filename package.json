@@ -28,7 +28,7 @@
     "aws-amplify": "^1.1.28",
     "core-js": "^2.5.4",
     "rxjs": "^6.5.2",
-    "yarn": "^1.7.0",
+    "yarn": "^1.17.3",
     "zone.js": "^0.9.1"
   },
   "devDependencies": {
