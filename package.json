@@ -24,7 +24,7 @@
     "@fortawesome/free-regular-svg-icons": "^5.1.1",
     "@fortawesome/free-solid-svg-icons": "^5.1.1",
     "add": "^2.0.6",
-    "ajv": "^6.10.0",
+    "ajv": "^6.12.3",
     "aws-amplify": "^1.1.28",
     "core-js": "^2.5.4",
     "rxjs": "^6.5.2",
